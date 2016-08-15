@@ -1,0 +1,12 @@
+*~
+*.swp
+*.orig
+*.bak
+*.o
+*.d
+*.pyc
+valgrind_report.txt
+*.a
+*.so
+build
+.gradle
