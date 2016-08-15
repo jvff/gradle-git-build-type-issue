@@ -1,0 +1,11 @@
+model {
+    components {
+        myexe(NativeExecutableSpec) {
+            sources {
+                c {
+                    lib project: ':mylib', library: 'mylib'
+                }
+            }
+        }
+    }
+}
